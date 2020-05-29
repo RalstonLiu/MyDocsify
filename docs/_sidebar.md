@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-* [首页](README.md)
-* [关于](about.md)
+
 
 
 

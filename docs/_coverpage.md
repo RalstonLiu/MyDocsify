@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](_media/icon.svg)
+![logo](https://cdn.jsdelivr.net/gh/RalstonLiu/MyImageRepo/img/20200529172533.png)
 
 # docsify <small>3.5</small>
 
@@ -10,5 +10,5 @@
 - 无需生成 html 文件
 - 众多主题
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[GitHub](https://github.com/RalstonLiu/MyDocsify)
 [Get Started](README.md)
