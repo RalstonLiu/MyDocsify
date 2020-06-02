@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 </head>
 <body>
 
@@ -17,6 +18,7 @@
       name: '',
       repo: '',
       loadSidebar: true,
+      subMaxLevel: 3,
       coverpage: true,
       loadNavbar: true,
       onlyCover: true,
@@ -40,7 +42,7 @@
 
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 
@@ -52,6 +54,19 @@
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
 
 
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+    clientID: '4171921d8e3909f81880',
+    clientSecret: '1d273870cf374ce5f36abe3a6002a4b4806beeef',
+    repo: 'MyDocsify',
+    owner: 'RalstonLiu',
+    admin: ['RalstonLiu'],
+    // facebook-like distraction free mode
+    distractionFreeMode: false
+    })
+  </script>
 
 
   <nav>

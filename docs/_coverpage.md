@@ -2,13 +2,14 @@
 
 ![logo](https://cdn.jsdelivr.net/gh/RalstonLiu/MyImageRepo/img/20200529172533.png)
 
-# docsify <small>3.5</small>
+# ROY的文档 <small>1.0</small>
 
-> 一个神奇的文档网站生成器。
 
-- 简单、轻便 (压缩后 ~21kB)
-- 无需生成 html 文件
-- 众多主题
 
 [GitHub](https://github.com/RalstonLiu/MyDocsify)
 [Get Started](README.md)
+
+<!-- 背景色![color](#fbb30b)-->
+
+
+<!-- 背景图片![](_media/doc.jpg) -->
